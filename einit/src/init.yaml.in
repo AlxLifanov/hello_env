@@ -1,0 +1,20 @@
+entities:
+
+-   task: hello.Hello1      # имя рабочего процесса
+    name: hello.Hello       # класс, из которого процесс сгенерирован
+    args:                   # передача массива аргументов
+    -   "arg1"
+    env:                    # установка переменных окружения
+        VAR1: VALUE11
+     
+-   task: hello.Hello2      # второй рабочий процесс
+    name: hello.Hello       # сделан из того же класса
+    args:
+    -   "arg2"
+    env:
+        VAR1: VALUE12
+        VAR2: VALUE2        # у меня процесс Hello2 запускается раньше первого, но в первый VAR2 не попадает
+
+@INIT_Hello_ENTITY_CONNECTIONS@
+
+@INIT_EXTERNAL_ENTITIES@

@@ -1,0 +1,20 @@
+entities:
+
+-   task: hello.Hello1
+    name: hello.Hello
+    args:
+    - "arg1"
+    env:
+        VAR1: VALUE11
+     
+-   task: hello.Hello2
+    name: hello.Hello
+    args:
+    - "arg2"
+    env:
+        VAR1: VALUE12
+        VAR2: VALUE2          
+
+
+
+

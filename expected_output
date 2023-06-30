@@ -1,0 +1,13 @@
+[ROFS ] Files: 3, size: 1789952 (0x001b5000).
+[ROFS ] File #00: einit            - size:   756648 (0x000b8ba8)
+[ROFS ] File #01: Hello            - size:   745736 (0x000b6108)
+[ROFS ] File #02: ksm.module       - size:   274496 (0x00043040)
+
+(...)
+
+* Starting process
+Args: 2 Hello arg2
+Envs: VALUE12 VALUE2
+* Starting process
+Args: 2 Hello arg1
+Envs: VALUE11 (null)
